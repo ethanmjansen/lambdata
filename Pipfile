@@ -5,10 +5,13 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+twine = "*"
 
 [packages]
 numpy = "*"
 pandas = "*"
+sklearn = "*"
+scipy = "*"
 
 [requires]
 python_version = "3.7"
