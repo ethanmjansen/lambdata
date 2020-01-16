@@ -20,4 +20,10 @@ class Plant_Care:
         Print how many times you should water monthly.
         '''
         print('water {} times monthly'.format(self.times_monthly))
+
+    def what_soil(self):
+        '''
+        Print what type of soil you have
+        '''
+        print('The soil type is {}'.format(self.soil_moisture))
         
